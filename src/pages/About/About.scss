@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  // border-block: 2px solid #242424;
+  &-canvas {
+    width: min(100%, 9rem);
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 1.4;
+    word-spacing: 0.05rem;
+  }
+
+  //tablet, desktop
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    &-canvas {
+      width: min(100%, 13.75rem);
+    }
+    &-text {
+      font-size: 1.5rem;
+      letter-spacing: 3.5%;
+      line-height: 1.5;
+      max-width: 60%;
+    }
+  }
+}

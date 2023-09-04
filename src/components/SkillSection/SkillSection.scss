@@ -1,0 +1,61 @@
+.skillsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+
+  .category {
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+  }
+
+  .skills-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+
+    .skill-logo {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    .skill-name {
+      font-family: var(--font-primary);
+      font-size: 0.875rem;
+      font-weight: 300;
+    }
+  }
+  //tablet, desktop
+  @media screen and (min-width: 768px) {
+    .category {
+      font-size: 1.25rem;
+      letter-spacing: 0.03em;
+      font-weight: 600;
+    }
+
+    .skills-list {
+      gap: 2em;
+    }
+
+    .skill-item {
+      .skill-logo {
+        height: 2rem;
+        width: 2rem;
+      }
+
+      .skill-name {
+        font-size: 1rem;
+      }
+    }
+  }
+}

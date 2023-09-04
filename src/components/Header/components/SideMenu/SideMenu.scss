@@ -1,0 +1,14 @@
+.sidemenu {
+  z-index: 999;
+  background-color: var(--color-primary-dark);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 2em 2em 2em;
+
+  //disable scrolling
+  touch-action: none;
+  -ms-touch-action: none;
+}

@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: var(--color-accent);
+
+  font-family: var(--font-primary);
+  font-weight: 500;
+  letter-spacing: 0;
+
+  &-subheading {
+    color: var(--color-primary-light);
+    font-size: 0.875rem;
+    letter-spacing: 0;
+  }
+  &-heading {
+    font-size: 1.875rem;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+
+  //tablet, desktop
+  @media screen and (min-width: 768px) {
+    &-subheading {
+      font-size: 1.375rem;
+      letter-spacing: 0;
+    }
+    &-heading {
+      font-size: 3.375rem;
+      letter-spacing: 2%;
+    }
+  }
+}

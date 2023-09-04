@@ -1,0 +1,22 @@
+.carousel {
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  .carousel-wrapper {
+    max-width: 100%;
+  }
+  .slider {
+    max-width: 100%;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .btn-wrapper {
+    align-self: stretch;
+    display: grid;
+    place-items: center;
+    padding-inline: 2em;
+  }
+}

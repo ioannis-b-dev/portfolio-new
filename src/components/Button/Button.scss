@@ -1,0 +1,53 @@
+.main-button {
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
+
+  min-width: 10rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+
+  padding: 1em 1.75em;
+
+  .text {
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    margin-top: -3px;
+  }
+
+  //overlay styles
+  .line {
+    position: absolute;
+    background-color: var(--color-accent);
+  }
+
+  .hr {
+    width: 1.5rem;
+    height: 0.175rem;
+  }
+  .vr {
+    width: 0.175rem;
+    height: 0.75rem;
+  }
+
+  .tl {
+    top: 0;
+    left: 0;
+  }
+
+  .tr {
+    top: 0;
+    right: 0;
+  }
+
+  .bl {
+    bottom: 0;
+    left: 0;
+  }
+
+  .br {
+    bottom: 0;
+    right: 0;
+  }
+}

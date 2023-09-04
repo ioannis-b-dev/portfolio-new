@@ -1,0 +1,63 @@
+$success-color: rgb(5, 177, 34);
+$danger-color: var(--color-accent);
+$success-text-color: black;
+$danger-text-color: black;
+
+.alert {
+  background-color: transparent;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  outline: 2px solid var(--color-primary-dark);
+  outline-offset: -3px;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: min(100%, 25rem);
+  }
+}
+
+#show {
+  display: grid;
+  place-items: center;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+#hide {
+  display: none;
+}
+
+.success {
+  width: 100%;
+  background-color: $success-color;
+  color: $success-text-color;
+}
+
+.danger {
+  width: 100%;
+  background-color: $danger-color;
+  color: $danger-text-color;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

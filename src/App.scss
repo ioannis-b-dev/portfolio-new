@@ -1,0 +1,94 @@
+.app {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.page {
+  min-height: 100vh;
+  padding-inline: 1em;
+  position: relative;
+  //tablet, desktop
+  @media screen and (min-width: 768px) {
+    padding-inline: 4em;
+  }
+}
+
+.head-text {
+  width: 100%;
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: -0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--color-accent);
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+
+  display: grid;
+  place-items: center;
+
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
+}
+.mail-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.debug-container {
+  border: 1px solid white;
+}
+
+.c-accent {
+  color: var(--color-accent);
+}
+.c-white {
+  color: var(--color-primary-light);
+}
+
+.arrow-btn {
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    scale: 1.1;
+
+    path {
+      stroke: var(--color-accent);
+    }
+  }
+}
+
+.section-header {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  h3 {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.black-bg {
+  background-color: var(--color-primary-dark);
+}

@@ -1,0 +1,36 @@
+/* Kodchasan Font */
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap");
+/* Nunito Sans Font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap");
+/* Inconsolata Font */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* colors */
+  --color-primary-dark: #000000;
+  --color-secondary-dark: #181616;
+
+  --color-accent: rgb(255, 211, 28);
+
+  --color-primary-light: #d6d6d6;
+  --color-secondary-light: #666;
+
+  /* fonts */
+  --font-primary: "Kodchasan", monospace;
+  --font-secondary: "Nunito Sans", sans-serif;
+
+  /* Layout */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
+}
+
+a {
+  color: inherit;
+}

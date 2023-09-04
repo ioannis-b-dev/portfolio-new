@@ -1,0 +1,19 @@
+.menubutton {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5em;
+  padding: 0.1em;
+
+  .line {
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--color-accent);
+  }
+}
