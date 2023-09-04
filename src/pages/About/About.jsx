@@ -18,10 +18,10 @@ const About = () => {
       </div>
       <div className="about-text ">
         <p>
-          Sono un Designer e <span className="c-accent">Web Developer</span>{" "}
-          freelance, nato e cresciuto tra le Dolomiti, in Alto Adige. Da più di
-          10 anni aiuto professionisti e brand a creare esperienze digitali
-          sartoriali per emergere nell'universo digitale.
+          I am a <span className="c-accent">Web Developer</span> and Creative
+          Coder currently working as a freelancer. My Masters in Computational
+          Arts as well as my background in Business Administration and Marketing
+          provide a solid foundation for building modern web apps.
         </p>
       </div>
     </div>
