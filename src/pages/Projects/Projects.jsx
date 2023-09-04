@@ -15,11 +15,11 @@ const Projects = () => {
       <h2 className="head-text">Projects</h2>
       {isMobileView ? (
         projects.map((project) => {
-          const { title, desc, image, gitHub, demo } = project;
+          const { title, subtitle, image, gitHub, demo } = project;
           return (
             <ProjectCard
               title={title}
-              desc={desc}
+              subtitle={subtitle}
               image={image}
               gitHub={gitHub}
               demo={demo}

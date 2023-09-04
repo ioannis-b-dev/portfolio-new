@@ -28,15 +28,16 @@ const Carousel = () => {
           className="slider"
         >
           {projects.map((project) => {
-            const { title, desc, gitHub, demo, image } = project;
+            const { title, subtitle, desc_full, gitHub, demo, image } = project;
             return (
               <SwiperSlide className="" key={title}>
                 <ProjectCard
                   title={title}
-                  desc={desc}
+                  subtitle={subtitle}
                   image={image}
                   gitHub={gitHub}
                   demo={demo}
+                  desc_full={desc_full}
                 />
               </SwiperSlide>
             );

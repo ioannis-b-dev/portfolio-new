@@ -2,7 +2,15 @@ import React from "react";
 import "./ProjectCard.scss";
 import { motion } from "framer-motion";
 import useScreenSize from "../../hooks/useScreenSize";
-const ProjectCard = ({ title, desc, features, gitHub, demo, image }) => {
+const ProjectCard = ({
+  title,
+  subtitle,
+  desc_full,
+  features,
+  gitHub,
+  demo,
+  image,
+}) => {
   const { isMobileView } = useScreenSize();
   const variants = {
     open: {
@@ -25,18 +33,15 @@ const ProjectCard = ({ title, desc, features, gitHub, demo, image }) => {
       <div className="card-info">
         <div className="card-heading">
           <h3>{title}</h3>
-          <h5>{desc}</h5>
+          <h5>{subtitle}</h5>
         </div>
         {!isMobileView && (
           <div className="card-body">
-            <p className="test">
-              Sono un Designer e Web Developer freelance, nato e cresciuto tra
-              le Dolomiti, in Alto Adige. Da più di 10
-            </p>
-            <p className="test">
+            <p className="test">{desc_full}</p>
+            {/* <p className="test">
               anni aiuto professionisti e brand a creare esperienze digitali
               sartoriali per emergere nell'universo digitale.
-            </p>
+            </p> */}
           </div>
         )}
 

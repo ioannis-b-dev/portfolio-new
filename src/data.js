@@ -29,7 +29,9 @@ export const projects = [
   {
     id: 1,
     title: "Modular Expansion",
-    desc: "Website made with React",
+    subtitle: "Website made with React",
+    desc_full:
+      "As a sole developer I was in charge of design, webscrapping data, building and deploying a website for an Athens / Berlin based Techno Label.",
     gitHub: "https://github.com/ioannis-b-dev/cinephilia-client",
     demo: "https://modularexpansion.com/",
     image: modularexpansion_cover,
@@ -38,7 +40,9 @@ export const projects = [
   {
     id: 2,
     title: "Wedding Anniversary",
-    desc: "Website made with React",
+    subtitle: "Website made with React",
+    desc_full:
+      "An invitational website to celebrate the client's wedding anniversary and be used as a platform for invitations.",
     gitHub: "https://github.com/ioannis-b-dev/dinosnanou",
     demo: "https://ntinosandnanou.netlify.app/",
     image: nandn_cover,
@@ -47,7 +51,9 @@ export const projects = [
   {
     id: 3,
     title: "Cinephillia",
-    desc: "Full stack Web Application",
+    subtitle: "Full stack Web Application",
+    desc_full:
+      "A personal project that uses IMdb Api and allows users to view and create their own favourite movie lists.",
     gitHub: "https://github.com/ioannis-b-dev/cinephilia-client",
     demo: "https://cinephilia-ig.netlify.app",
     image: cinephilia_cover,

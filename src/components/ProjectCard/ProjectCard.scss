@@ -45,9 +45,12 @@
       flex-direction: column;
       justify-content: space-evenly;
       flex: 1;
+      padding-right: 1em;
     }
 
     .test {
+      flex: 1;
+      padding-block: 1em;
       font-family: var(--font-primary);
       font-size: 0.875rem;
       line-height: 1.2;
