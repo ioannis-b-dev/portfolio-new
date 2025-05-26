@@ -60,15 +60,19 @@
       display: flex;
       gap: 1em;
       padding-bottom: 1px;
+      width: 100%;
+      padding-right: 1em;
     }
-    .test-2 {
-      padding: 0.3em 0.8em;
+    .btn {
+      width: 100%;
+      text-align: center;
+      padding: 0.625em 0.8em;
       outline: 1.5px solid white;
       border-radius: 0.1em;
       outline-offset: -1px;
       background-color: var(--font-primary-dark);
       font-family: var(--font-primary);
-      font-size: 0.875rem;
+      font-size: 1rem;
       line-height: 1.2;
       color: var(--color-accent);
       font-weight: 600;
@@ -128,9 +132,10 @@
         display: flex;
         gap: 1em;
         padding-bottom: 1px;
+        padding-right: 0em;
       }
-      .test-2 {
-        padding: 0.3em 0.8em;
+      .btn {
+        padding: 0.625em 0.8em;
         outline: 1.5px solid white;
         border-radius: 0.1em;
         outline-offset: -1px;

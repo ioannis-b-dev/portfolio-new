@@ -19,9 +19,9 @@ const About = () => {
       <div className="about-text ">
         <p>
           I am a <span className="c-accent">Web Developer</span> and Creative
-          Coder currently working as a freelancer. My Masters in Computational
-          Arts as well as my background in Business Administration and Marketing
-          provide a solid foundation for building modern web apps.
+          Coder currently based in Athens. My professional experience as well as
+          my Masters in Computational Arts provide a solid foundation for
+          building modern web apps.
         </p>
       </div>
     </div>

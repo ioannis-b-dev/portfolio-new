@@ -1,10 +1,8 @@
 import {
   reactLogo,
-  framerLogo,
   sassLogo,
   d3Logo,
   threeLogo,
-  reduxLogo,
   axiosLogo,
   expressLogo,
   nodeLogo,
@@ -16,20 +14,29 @@ import {
   gitLogo,
   vscodeLogo,
   powershellLogo,
+  tailwindLogo,
+  graphQlLogo,
+  nextLogo,
 } from "./assets";
 
-import {
-  modularexpansion_cover,
-  nandn_cover,
-  cinephilia_cover,
-  ml_cover,
-} from "./assets";
+import { modularexpansion_cover, nandn_cover, cannibal_cover } from "./assets";
 
 export const projects = [
   {
     id: 1,
+    title: "Cannibal Radio",
+    subtitle: "Website made with React / Next",
+    desc_full:
+      "As a sole developer I was in charge of the website's design using Figma, front end implementation using React, integration with Wordpress CMS using WP GraphQL, live streaming functionality and metadata generation.",
+    gitHub: "https://github.com/ioannis-b-dev/cannibal-radio",
+    demo: "https://cannibalradio.com/",
+    image: cannibal_cover,
+    isPaid: true,
+  },
+  {
+    id: 2,
     title: "Modular Expansion",
-    subtitle: "Website made with React",
+    subtitle: "Website made with React / Next",
     desc_full:
       "As a sole developer I was in charge of design, webscrapping data, building and deploying a website for an Athens / Berlin based Techno Label.",
     gitHub: "https://github.com/ioannis-b-dev/cinephilia-client",
@@ -38,7 +45,7 @@ export const projects = [
     isPaid: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Wedding Anniversary",
     subtitle: "Website made with React",
     desc_full:
@@ -48,17 +55,7 @@ export const projects = [
     image: nandn_cover,
     isPaid: true,
   },
-  {
-    id: 3,
-    title: "Cinephillia",
-    subtitle: "Full stack Web Application",
-    desc_full:
-      "A personal project that uses IMdb Api and allows users to view and create their own favourite movie lists.",
-    gitHub: "https://github.com/ioannis-b-dev/cinephilia-client",
-    demo: "https://cinephilia-ig.netlify.app",
-    image: cinephilia_cover,
-    isPaid: false,
-  },
+
   // {
   //   id: 4,
   //   title: "Creative Coding",
@@ -72,8 +69,9 @@ export const skills = [
     category: "Client Side",
     technologies: [
       { name: "React", logo: reactLogo },
+      { name: "Next", logo: nextLogo },
+      { name: "Tailwind", logo: tailwindLogo },
       { name: "Sass", logo: sassLogo },
-      { name: "Framer", logo: framerLogo },
       { name: "D3", logo: d3Logo },
       { name: "Three", logo: threeLogo },
     ],
@@ -81,8 +79,8 @@ export const skills = [
   {
     category: "API / Server Side",
     technologies: [
-      { name: "Redux", logo: reduxLogo },
       { name: "Axios", logo: axiosLogo },
+      { name: "GraphQL", logo: graphQlLogo },
       { name: "Express", logo: expressLogo },
       { name: "Node", logo: nodeLogo },
       { name: "Mongodb", logo: mongodbLogo },

@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectCard.scss";
 import { motion } from "framer-motion";
 import useScreenSize from "../../hooks/useScreenSize";
@@ -38,19 +37,12 @@ const ProjectCard = ({
         {!isMobileView && (
           <div className="card-body">
             <p className="test">{desc_full}</p>
-            {/* <p className="test">
-              anni aiuto professionisti e brand a creare esperienze digitali
-              sartoriali per emergere nell'universo digitale.
-            </p> */}
           </div>
         )}
 
         <div className="card-footer">
-          <a className="test-2" href={demo} target="_blank" rel="noreferrer">
+          <a className="btn" href={demo} target="_blank" rel="noreferrer">
             Visit Site
-          </a>
-          <a className="test-2" href={gitHub} target="_blank" rel="noreferrer">
-            View Code
           </a>
         </div>
       </div>

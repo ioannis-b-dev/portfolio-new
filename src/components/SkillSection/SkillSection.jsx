@@ -1,7 +1,5 @@
 //libraries
-import React from "react";
 import { motion } from "framer-motion";
-
 import "./SkillSection.scss";
 
 const SkillSection = ({ info }) => {

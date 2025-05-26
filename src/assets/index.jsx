@@ -2,7 +2,7 @@
 export { default as modularexpansion_cover } from "./images/modular_website.png";
 export { default as nandn_cover } from "./images/ntinosandnanou_website.png";
 export { default as cinephilia_cover } from "./images/cinephilia_website.png";
-
+export { default as cannibal_cover } from "./images/cannibal_cover.png";
 //creative coding images
 export { default as ml_cover } from "./images/ml_final.jpg";
 
@@ -15,17 +15,17 @@ export { VscMail as EmailIcon } from "react-icons/vsc";
 export { ReactComponent as NextIcon } from "./icons/next_arrow.svg";
 export { ReactComponent as PrevIcon } from "./icons/prev_arrow.svg";
 
-//frameworks logos
-
 //front end
 export { default as reactLogo } from "./logos/react.png";
+export { default as nextLogo } from "./logos/next.png";
 export { default as framerLogo } from "./logos/framerMotion.png";
 export { default as sassLogo } from "./logos/sass.png";
 export { default as d3Logo } from "./logos/d3.png";
 export { default as threeLogo } from "./logos/threejs.png";
-
-//API / back end
+export { default as tailwindLogo } from "./logos/tailwind.png";
 export { default as reduxLogo } from "./logos/redux.png";
+//API / back end
+export { default as graphQlLogo } from "./logos/graphQl.png";
 export { default as axiosLogo } from "./logos/axios.png";
 export { default as expressLogo } from "./logos/express.png";
 export { default as nodeLogo } from "./logos/node.png";

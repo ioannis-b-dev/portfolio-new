@@ -34,3 +34,7 @@ body {
 a {
   color: inherit;
 }
+
+.debug {
+  border: 1px solid red !important;
+}

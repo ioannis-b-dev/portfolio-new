@@ -9,8 +9,8 @@ import "./Carousel.scss";
 const Carousel = () => {
   const swiperRef = useRef();
   return (
-    <div className="carousel ">
-      <div className="btn-wrapper ">
+    <div className="carousel">
+      <div className="btn-wrapper">
         <PrevIcon
           className="arrow-btn"
           onClick={() => swiperRef.current.slidePrev()}
